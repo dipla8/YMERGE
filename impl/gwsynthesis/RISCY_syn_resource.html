@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Hierarchy Module Resource</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 14px; }
+div#main_wrapper{ width: 100%; }
+h1 {text-align: center; }
+h1 {margin-top: 36px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { align = "center"; padding: 5px 2px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table td.label { width: 20%; white-space: nowrap; min-width: 20px; background-color: #dee8f4; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="content">
+<h1>Hierarchy Module Resource</h1>
+<table>
+<tr>
+<th class="label">MODULE NAME</th>
+<th class="label">REG NUMBER</th>
+<th class="label">ALU NUMBER</th>
+<th class="label">LUT NUMBER</th>
+<th class="label">DSP NUMBER</th>
+<th class="label">BSRAM NUMBER</th>
+<th class="label">SSRAM NUMBER</th>
+<th class="label">ROM16 NUMBER</th>
+</tr>
+<tr>
+<td class="label">top (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">26</td>
+<td align = "center">43</td>
+<td align = "center">14</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--cpu_1
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">638</td>
+<td align = "center">63</td>
+<td align = "center">2321</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--cpu_regs
+ (E:/FileManager/RISCV/RISCY20kV2/src/CPU/cpu.sv)</td>
+<td align = "center">992</td>
+<td align = "center">10</td>
+<td align = "center">1061</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--SignExtendSelector
+ (E:/FileManager/RISCV/RISCY20kV2/src/CPU/cpu.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">47</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--csrFile
+ (E:/FileManager/RISCV/RISCY20kV2/src/CPU/cpu.sv)</td>
+<td align = "center">296</td>
+<td align = "center">12</td>
+<td align = "center">367</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--control_stall_id
+ (E:/FileManager/RISCV/RISCY20kV2/src/CPU/cpu.sv)</td>
+<td align = "center">-</td>
+<td align = "center">10</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--cpu_alu
+ (E:/FileManager/RISCV/RISCY20kV2/src/CPU/cpu.sv)</td>
+<td align = "center">-</td>
+<td align = "center">116</td>
+<td align = "center">116</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--control_bypass_ex
+ (E:/FileManager/RISCV/RISCY20kV2/src/CPU/cpu.sv)</td>
+<td align = "center">-</td>
+<td align = "center">44</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--mem_write_selector
+ (E:/FileManager/RISCV/RISCY20kV2/src/CPU/cpu.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">85</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--u_i_cache
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">129</td>
+<td align = "center">43</td>
+<td align = "center">116</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--INSTR_BRAM_0
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/instruction_cache.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--INSTR_BRAM_1
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/instruction_cache.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--INSTR_BRAM_2
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/instruction_cache.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--INSTR_BRAM_3
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/instruction_cache.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--TAG_VALID_BRAM_0
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/instruction_cache.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--TAG_VALID_BRAM_1
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/instruction_cache.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--bu
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">32</td>
+<td align = "center">-</td>
+<td align = "center">333</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--clint_inst
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">161</td>
+<td align = "center">126</td>
+<td align = "center">159</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--mem
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">79</td>
+<td align = "center">-</td>
+<td align = "center">173</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--rPLL_sdram
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--sdram_interface_init
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">98</td>
+<td align = "center">-</td>
+<td align = "center">60</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--ram_controller_inst
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">294</td>
+<td align = "center">19</td>
+<td align = "center">401</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--bm
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--debounceDownL
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/buttonModule.v)</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">51</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--debounceUpL
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/buttonModule.v)</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">50</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--debounceLeftL
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/buttonModule.v)</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">50</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--debounceRightL
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/buttonModule.v)</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">50</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--debounceDownR
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/buttonModule.v)</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">51</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--debounceUpR
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/buttonModule.v)</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">51</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--debounceLeftR
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/buttonModule.v)</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">51</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--debounceRightR
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/buttonModule.v)</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">52</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--flashController
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">94</td>
+<td align = "center">-</td>
+<td align = "center">97</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--navigator
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/flashController.v)</td>
+<td align = "center">128</td>
+<td align = "center">-</td>
+<td align = "center">211</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--SecondStageRAM
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--bram_array[0].bram_inst
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/programMemory.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">15</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BRAM_0
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/word_bram.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BRAM_1
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/word_bram.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BRAM_2
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/word_bram.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BRAM_3
+ (E:/FileManager/RISCV/RISCY20kV2/src/Memories/word_bram.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--slower_clock
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--ppu_inst
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">892</td>
+<td align = "center">595</td>
+<td align = "center">356</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--text_Buffer
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/PPU.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--sprite_BRAM
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/PPU.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--fb_inst
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">79</td>
+<td align = "center">27</td>
+<td align = "center">66</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BRAM_0
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/frame_buffer.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BRAM_1
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/frame_buffer.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BRAM_2
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/frame_buffer.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BRAM_3
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/frame_buffer.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--VGA
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">28</td>
+<td align = "center">-</td>
+<td align = "center">2202</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--uart_controller
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">51</td>
+<td align = "center">-</td>
+<td align = "center">59</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--uart_inst
+ (E:/FileManager/RISCV/RISCY20kV2/src/GPIO/uartController.v)</td>
+<td align = "center">81</td>
+<td align = "center">-</td>
+<td align = "center">81</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--counter1mhz
+ (E:/FileManager/RISCV/RISCY20kV2/src/soc.v)</td>
+<td align = "center">42</td>
+<td align = "center">31</td>
+<td align = "center">19</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>
