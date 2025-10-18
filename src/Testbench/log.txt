@@ -1,0 +1,64 @@
+WARNING: ../Memories/memory.v:36: $readmemh: Standard inconsistency, following 1364-2005.
+WARNING: ../Memories/memory.v:36: $readmemh(../includes/bootloader.hex): Not enough words in the file for the requested range [0:8193].
+ERROR: ./Simulation/flash_simulation.v:110: $readmemb: Unable to open flash.bin for reading.
+WARNING: ./Simulation/MemorySim.v:31: $readmemh: Standard inconsistency, following 1364-2005.
+WARNING: ./Simulation/MemorySim.v:31: $readmemh(../includes/secondStage.hex): Not enough words in the file for the requested range [0:262143].
+WARNING: ./Simulation/MemorySim.v:31: $readmemh: Standard inconsistency, following 1364-2005.
+WARNING: ./Simulation/MemorySim.v:31: $readmemh(../includes/RAM.hex): Not enough words in the file for the requested range [0:262143].
+Starting TESTBENCH
+VCD info: dumpfile ZSOC.vcd opened for output.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[0] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[1] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[2] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[3] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[4] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[5] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[6] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[7] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[8] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[9] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[10] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[11] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[12] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[13] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[14] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[15] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[16] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[17] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[18] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[19] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[20] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[21] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[22] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[23] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[24] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[25] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[26] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[27] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[28] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[29] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[30] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.cpu_1.cpu_regs.data[31] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[0] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[1] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[2] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[3] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[4] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[5] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[6] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[7] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[8] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[9] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[10] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[11] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[12] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[13] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[14] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[15] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[16] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[17] will conflict with an escaped identifier.
+VCD warning: array word test.TOP.text.charMemory[18] will conflict with an escaped identifier.
+** VVP Stop(0) **
+** Flushing output streams.
+** Current simulation time is 133494000 ticks.
+** Continue **
