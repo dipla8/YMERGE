@@ -1,0 +1,110 @@
+../CPU/control_alu.v:30: warning: Extra digits given for sized hex constant.
+../CPU/cpu.sv:732: warning: Port 15 (idex_csr_addr) of control_bypass_ex expects 32 bits, got 12.
+../CPU/cpu.sv:732:        : Padding 20 high bits of the port.
+../CPU/cpu.sv:732: warning: Port 16 (exmem_csr_addr) of control_bypass_ex expects 32 bits, got 12.
+../CPU/cpu.sv:732:        : Padding 20 high bits of the port.
+../CPU/cpu.sv:732: warning: Port 17 (memwb_csr_addr) of control_bypass_ex expects 32 bits, got 12.
+../CPU/cpu.sv:732:        : Padding 20 high bits of the port.
+../soc.v:102: warning: Port 18 (debug_error) of cpu expects 2 bits, got 3.
+../soc.v:102:        : Padding 1 high bits of the expression.
+../Memories/instruction_cache.sv:179: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../Memories/instruction_cache.sv:179:        : Pruning 24 high bits of the expression.
+../Memories/instruction_cache.sv:198: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../Memories/instruction_cache.sv:198:        : Pruning 24 high bits of the expression.
+../Memories/instruction_cache.sv:217: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../Memories/instruction_cache.sv:217:        : Pruning 24 high bits of the expression.
+../Memories/instruction_cache.sv:236: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../Memories/instruction_cache.sv:236:        : Pruning 24 high bits of the expression.
+../Memories/instruction_cache.sv:256: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../Memories/instruction_cache.sv:256:        : Pruning 24 high bits of the expression.
+../Memories/instruction_cache.sv:275: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../Memories/instruction_cache.sv:275:        : Pruning 24 high bits of the expression.
+../Memories/instruction_cache.sv:49: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+../Memories/instruction_cache.sv:49: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+../soc.v:177: warning: Port 10 (counter27M) of bus expects 32 bits, got 1.
+../soc.v:177:        : Padding 31 high bits of the port.
+../soc.v:250: warning: Port 2 (PC) of memory expects 22 bits, got 23.
+../soc.v:250:        : Pruning 1 high bits of the expression.
+../soc.v:250: warning: Port 5 (data_addr) of memory expects 18 bits, got 23.
+../soc.v:250:        : Pruning 5 high bits of the expression.
+../soc.v:289: warning: Port 5 (address) of sdram_interface expects 32 bits, got 24.
+../soc.v:289:        : Padding 8 high bits of the port.
+../soc.v:289: warning: Port 14 (sdram_addr) of sdram_interface expects 32 bits, got 30.
+../soc.v:289:        : Padding 2 high bits of the port.
+../soc.v:315: warning: Port 23 (address) of ram_controller expects 32 bits, got 30.
+../soc.v:315:        : Padding 2 high bits of the port.
+../soc.v:315: warning: Port 24 (data_in) of ram_controller expects 512 bits, got 32.
+../soc.v:315:        : Padding 480 high bits of the port.
+../soc.v:315: warning: Port 26 (len) of ram_controller expects 8 bits, got 32.
+../soc.v:315:        : Pruning (signed) 24 high bits of the expression.
+../soc.v:357: warning: Port 11 (address) of buttonModule expects 32 bits, got 8.
+../soc.v:357:        : Padding 24 high bits of the port.
+../Memories/flashController.v:132: warning: Port 5 (dataToWrite) of flashNavigator expects 24 bits, got 32.
+../Memories/flashController.v:132:        : Pruning 8 high bits of the expression.
+../soc.v:375: warning: Port 5 (address) of flashController expects 8 bits, got 32.
+../soc.v:375:        : Pruning 24 high bits of the expression.
+../soc.v:430: warning: Port 2 (PC) of memorySim expects 22 bits, got 23.
+../soc.v:430:        : Pruning 1 high bits of the expression.
+../soc.v:430: warning: Port 5 (data_addr) of memorySim expects 18 bits, got 23.
+../soc.v:430:        : Pruning 5 high bits of the expression.
+../soc.v:444: warning: Port 2 (PC) of memorySim expects 22 bits, got 23.
+../soc.v:444:        : Pruning 1 high bits of the expression.
+../soc.v:444: warning: Port 5 (data_addr) of memorySim expects 18 bits, got 23.
+../soc.v:444:        : Pruning 5 high bits of the expression.
+../soc.v:469: warning: Port 4 (char_write_addr) of textTest expects 16 bits, got 15.
+../soc.v:469:        : Padding 1 high bits of the port.
+../GPIO/PPU.v:72: warning: Port 5 (addr_a) of DPBRAM expects 11 bits, got 15.
+../GPIO/PPU.v:72:        : Pruning 4 high bits of the expression.
+../GPIO/PPU.v:72: warning: Port 6 (addr_b) of DPBRAM expects 11 bits, got 15.
+../GPIO/PPU.v:72:        : Pruning 4 high bits of the expression.
+../GPIO/PPU.v:89: warning: Port 5 (addr_a) of DPBRAM expects 11 bits, got 15.
+../GPIO/PPU.v:89:        : Pruning 4 high bits of the expression.
+../GPIO/PPU.v:89: warning: Port 6 (addr_b) of DPBRAM expects 11 bits, got 15.
+../GPIO/PPU.v:89:        : Pruning 4 high bits of the expression.
+../GPIO/PPU.v:106: warning: Port 5 (addr_a) of DPBRAM expects 14 bits, got 16.
+../GPIO/PPU.v:106:        : Pruning 2 high bits of the expression.
+../GPIO/PPU.v:106: warning: Port 6 (addr_b) of DPBRAM expects 14 bits, got 15.
+../GPIO/PPU.v:106:        : Pruning 1 high bits of the expression.
+../GPIO/frame_buffer.sv:117: warning: Port 13 (ada) of Gowin_DPB_program expects 11 bits, got 10.
+../GPIO/frame_buffer.sv:117:        : Padding 1 high bits of the port.
+../GPIO/frame_buffer.sv:117: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../GPIO/frame_buffer.sv:117:        : Pruning 24 high bits of the expression.
+../GPIO/frame_buffer.sv:136: warning: Port 13 (ada) of Gowin_DPB_program expects 11 bits, got 10.
+../GPIO/frame_buffer.sv:136:        : Padding 1 high bits of the port.
+../GPIO/frame_buffer.sv:136: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../GPIO/frame_buffer.sv:136:        : Pruning 24 high bits of the expression.
+../GPIO/frame_buffer.sv:155: warning: Port 13 (ada) of Gowin_DPB_program expects 11 bits, got 10.
+../GPIO/frame_buffer.sv:155:        : Padding 1 high bits of the port.
+../GPIO/frame_buffer.sv:155: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../GPIO/frame_buffer.sv:155:        : Pruning 24 high bits of the expression.
+../GPIO/frame_buffer.sv:174: warning: Port 13 (ada) of Gowin_DPB_program expects 11 bits, got 10.
+../GPIO/frame_buffer.sv:174:        : Padding 1 high bits of the port.
+../GPIO/frame_buffer.sv:174: warning: Port 14 (dina) of Gowin_DPB_program expects 8 bits, got 32.
+../GPIO/frame_buffer.sv:174:        : Pruning 24 high bits of the expression.
+../GPIO/frame_buffer.sv:194: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+../GPIO/frame_buffer.sv:194: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+../GPIO/frame_buffer.sv:194: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+../GPIO/frame_buffer.sv:194: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+../GPIO/frame_buffer.sv:194: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+../GPIO/frame_buffer.sv:194: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+../GPIO/frame_buffer.sv:194: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+./soctb.v:47: warning: Port 26 (uart_rx) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+./soctb.v:47: warning: Port 28 (btnDownL) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+./soctb.v:47: warning: Port 29 (btnUpL) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+./soctb.v:47: warning: Port 30 (btnLeftL) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+./soctb.v:47: warning: Port 31 (btnRightL) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+./soctb.v:47: warning: Port 32 (btnDownR) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+./soctb.v:47: warning: Port 33 (btnUpR) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+./soctb.v:47: warning: Port 34 (btnLeftR) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+./soctb.v:47: warning: Port 35 (btnRightR) of top expects 1 bits, got 32.
+./soctb.v:47:        : Pruning (signed) 31 high bits of the expression.
+../Memories/instruction_cache.sv:315: warning: System task ($fwrite) cannot be synthesized in an always_ff process.
+../Memories/instruction_cache.sv:318: warning: System task ($fwrite) cannot be synthesized in an always_ff process.
