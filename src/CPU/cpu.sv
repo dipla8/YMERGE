@@ -672,7 +672,7 @@ division_unit DU(
 always @(posedge clock or negedge reset)
 begin
 	if(local_divcy == 6'd32 && divcy != 6'd32)begin
-		local_divcy <= divcy;
+		local_divcy <= divcy +1; // the original did not have the +1, turns out it was losing a cycle with this version so I had to add the +1.
 	end
 	if(local_divcy != 6'd32)begin
 		local_divcy <= local_divcy-1;
